@@ -68,7 +68,6 @@ public class Main {
      * Задание 3:
      * Дан массив целых чисел и ещё одно целое число. Удалите все вхождения этого числа из массива (пропусков быть не должно).
      */
-
     public static int[] removeElementFromArray(int[] array, int element) {
 
         int count = 0;
@@ -89,7 +88,6 @@ public class Main {
      * Задание 4:
      * Заполните массив случайным числами и выведите максимальное, минимальное и среднее значение.
      */
-
     public static void minMidMax() {
         int[] array = new Random().ints(10, 0,10).toArray();
         System.out.println("\nЗадание 4\nСлучайный массив:\n" + Arrays.toString(array));
