@@ -1,4 +1,4 @@
-package main.java.ru.timur.linearAndBinarySearch;
+package main.java.ru.timur.task1;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -20,16 +20,20 @@ public class Main {
 
         System.out.println("\nПервый массив: " + Arrays.toString(arr1) + "\nВторой массив: " + Arrays.toString(arr2));
         System.out.println("Искомый элемент: " + element);
-        System.out.println("\nЛинейный поиск. Номер элемента: " + linearSearch(arr1, element));
-        if (binarySearch(arr2, element) == -1) {
-            System.out.println("Бинарный поиск. Элемент отсутствует!");
+        System.out.println("\nЗадание 1:\nЛинейный поиск. Номер элемента: " + linearSearch(arr1, element));
+        if (binarySearch(arr1, element) == -1) {
+            System.out.println("\nЗадание 2:\nБинарный поиск. Элемент отсутствует!");
         } else {
-            System.out.println("Бинарный поиск. Номер элемента: " + binarySearch(arr2, element));
+            System.out.println("\nЗадание 2:\nБинарный поиск. Номер элемента: " + binarySearch(arr1, element));
         }
-        System.out.println("\nОтличные элементы массивов: ");
+        System.out.println("\nЗадание 3:\nОтличные элементы массивов: ");
         compareLists(arr1, arr2);
     }
 
+    /**
+     * Задание 1.
+     * Задача: реализовать алгоритм линейного поиска для массива.
+     */
     public static int linearSearch(int[] arr, int element) {
 
         for (int i = 0; i < arr.length; i++) {
@@ -40,6 +44,10 @@ public class Main {
         return -1;
     }
 
+    /**
+     * Задание 2.
+     * Задача: реализовать алгоритм бинарного поиска для массива.
+     */
     public static int binarySearch(int[] arr, int element) {
 
         int firstId = 0;
@@ -58,6 +66,10 @@ public class Main {
         return -1;
     }
 
+    /**
+     * Задание 3.
+     * Условие: есть 2 сортированных последовательности целых чисел. Необходимо напечатать те элементы из первой последовательности, которых нет во второй последовательности.
+     */
     public static void compareLists(int[] arr1, int[] arr2) {
 
         int i = 0;
