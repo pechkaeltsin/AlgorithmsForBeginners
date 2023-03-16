@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76428596-7fe7-4af0-b674-f981841529ae" name="Changes" comment="work2" />
+    <list default="true" id="76428596-7fe7-4af0-b674-f981841529ae" name="Changes" comment="work2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/timur/task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/timur/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/timur/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/timur/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/timur/task2/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +39,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.main.java.ru.timur.task2.Main">
+  <component name="RunManager" selected="Application.main.java.ru.timur.task3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ru.timur.task1.Main" />
       <module name="AlgorithmsForBeginners" />
@@ -68,10 +73,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.java.ru.timur.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.timur.task3.Main" />
+      <module name="AlgorithmsForBeginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ru.timur.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main.java.ru.timur.task2.Main" />
+        <item itemvalue="Application.main.java.ru.timur.task3.Main" />
         <item itemvalue="Application.main.java.ru.timur.task1.Main" />
+        <item itemvalue="Application.main.java.ru.timur.task2.Main" />
         <item itemvalue="Application.main.java.ru.timur.Main" />
       </list>
     </recent_temporary>
@@ -86,7 +105,7 @@
       <updated>1678365743357</updated>
       <workItem from="1678365744627" duration="541000" />
       <workItem from="1678375631603" duration="17000" />
-      <workItem from="1678963268092" duration="8808000" />
+      <workItem from="1678963268092" duration="20771000" />
     </task>
     <task id="LOCAL-00001" summary="work1">
       <created>1678366154592</created>
@@ -109,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678993730841</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="work2">
+      <created>1678993915316</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678993915316</updated>
+    </task>
+    <task id="LOCAL-00005" summary="work2">
+      <created>1678993930079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678993930079</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,5 +163,16 @@
     <MESSAGE value="work1" />
     <MESSAGE value="work2" />
     <option name="LAST_COMMIT_MESSAGE" value="work2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

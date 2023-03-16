@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * <DESCRIPTION>Линейный и бинарный поиск.
+ * Занятие 1.
  *
  * @author fazylzyanov@reksoft.ru
  */

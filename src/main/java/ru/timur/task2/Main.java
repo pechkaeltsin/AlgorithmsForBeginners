@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 /**
- * Занятие 2
+ * Занятие 2.
  *
  * @author fazylzyanov@reksoft.ru
  */
