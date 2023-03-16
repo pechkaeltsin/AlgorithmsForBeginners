@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76428596-7fe7-4af0-b674-f981841529ae" name="Changes" comment="work1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/timur/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/timur/linearAndBinarySearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/timur/task1/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="76428596-7fe7-4af0-b674-f981841529ae" name="Changes" comment="work2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +86,7 @@
       <updated>1678365743357</updated>
       <workItem from="1678365744627" duration="541000" />
       <workItem from="1678375631603" duration="17000" />
-      <workItem from="1678963268092" duration="8208000" />
+      <workItem from="1678963268092" duration="8808000" />
     </task>
     <task id="LOCAL-00001" summary="work1">
       <created>1678366154592</created>
@@ -99,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678366154592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="work2">
+      <created>1678993360256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678993360256</updated>
+    </task>
+    <task id="LOCAL-00003" summary="work2">
+      <created>1678993730841</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678993730841</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="work1" />
-    <option name="LAST_COMMIT_MESSAGE" value="work1" />
+    <MESSAGE value="work2" />
+    <option name="LAST_COMMIT_MESSAGE" value="work2" />
   </component>
 </project>
